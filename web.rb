@@ -4,8 +4,8 @@ require 'line/bot'
 
 def client
   @client ||= Line::Bot::Client.new { |config|
-    config.channel_secret = ENV["LINE_CHANNEL_SECRET"]
-    config.channel_token = ENV["LINE_CHANNEL_TOKEN"]
+    config.channel_secret = ENV["0a1744386b8dadccb2f269667dbf298c"]
+    config.channel_token = ENV["EBS3nA6f0y6z8EISusYXtZoGexa16VIez9K7umad43E4Sjvv7rwT7VI7Nv4G1bXiJP4Zu/nIjHw/akTJf7xP+KcMmBwTWHyWFKCYlUWBAIZmd+nyEUqXi6cykhBaOFCEsxwMglEyHaD4QxlJlusOEAdB04t89/1O/w1cDnyilFU="]
   }
 end
 
